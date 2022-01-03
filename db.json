@@ -1,16 +1,31 @@
 {
-  "posts":[
+  "users": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "email": "user@gmail.com",
+      "password": "$2a$10$ZzQfNEZy7N91zvAJtYHyeedH/hxtA/o3.aV8nC31E6.BVlfhsd.yS",
+      "fullname": "User",
+      "username": "user",
+      "profileImg": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
+      "id": 1
+    },
+    {
+      "email": "ronaldo@gmail.com",
+      "password": "$2a$10$2zJ7TjNYlj8OJC2Gk1QJZObqRZ.OK2oQwMZPVn4mOnatpYD5FRmha",
+      "fullname": "Cristiano Ronaldo",
+      "username": "cristiano",
+      "profileImg": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
+      "id": 2
+    },
+    {
+      "email": "messi@gmail.com",
+      "password": "$2a$10$bbhzJyv//GbO4cF0h//NTOQbjNPiuPfQ0uzuWncjwbm2WlAUL4DyW",
+      "fullname": "Lionel Messi",
+      "username": "messi",
+      "profileImg": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
+      "id": 3
     }
   ],
-  "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
-  ]
+  "posts": [],
+  "followers": [],
+  "followings": []
 }
