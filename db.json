@@ -1,7 +1,589 @@
 {
-  "users": [],
-  "posts": [],
-  "followers": [],
-  "followings": [],
-  "comments": []
+  "users": [
+    {
+      "email": "cristiano@gmail.com",
+      "password": "$2a$10$01zTl5qk60U8ZrEP4677uOL5Q6vMTAmgvRtgSGFoIKZkvNE4w0VqO",
+      "fullname": "Cristiano Ronaldo",
+      "username": "cristiano",
+      "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641451776913ron.jpg?alt=media&token=a17ce251-47e1-4a2d-8d21-c15d0e3909f3",
+      "name": "Cristiano Ronaldo",
+      "website": "www.cristianoronaldo.com",
+      "bio": "This is the official Vuestagram account of Cristiano Ronaldo",
+      "phone": "",
+      "gender": "",
+      "id": 4
+    },
+    {
+      "email": "vue@gmail.com",
+      "password": "$2a$10$sF8ns/T1G.zbZCkxyYItpuSz5X6bmx/aZJ7/fbobrp1cN.KCMSmk.",
+      "fullname": "Vuestagram",
+      "username": "vuestagram",
+      "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641453007693test.png?alt=media&token=46015606-f505-47e3-9082-1c76aa36513c",
+      "name": "Vue.js",
+      "website": "https://v3.vuejs.org/",
+      "bio": "The Progressive\nJavaScript Framework",
+      "phone": "",
+      "gender": "",
+      "id": 5
+    },
+    {
+      "email": "messi@gmail.com",
+      "password": "$2a$10$z2mTXRwx71YXch3qCAGQieDQADTTSna5naslRJ3Q0pNmg8NaRrQ6K",
+      "fullname": "Lionel Messi",
+      "username": "messi",
+      "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641453218844messi.jpg?alt=media&token=35ebe761-29d8-49be-98e4-795cb9c7d71b",
+      "name": "Lionel Messi",
+      "website": "https://messi.com/",
+      "bio": "Bienvenidos a la cuenta oficial de Vuestagram de Leo Messi / Welcome to the official Leo Messi Vuestagram account",
+      "phone": "",
+      "gender": "",
+      "id": 6
+    },
+    {
+      "email": "elon@gmail.com",
+      "password": "$2a$10$1eg6ES75Vdh5aLH52czanOKo35Ye7ClwrcKa4RGs9ZtP3mi2rDR6.",
+      "fullname": "Elon Mask",
+      "username": "elonmask",
+      "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641462282855elon.jpg?alt=media&token=080a1e49-bb2b-46fd-8ae9-d8b3412a65ac",
+      "name": "Elon Mask",
+      "website": "",
+      "bio": "CEO, CTO Space X, Tesla",
+      "phone": "",
+      "gender": "",
+      "id": 7
+    },
+    {
+      "email": "realmadrid@gmail.com",
+      "password": "$2a$10$b6aswwcAuK4mK2CSzwp0.e49X1cYrwztyVRSr0leUCnhtmasJbaN.",
+      "fullname": "Real Madrid",
+      "username": "realmadrid",
+      "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641462514950rm.jpg?alt=media&token=0aa5cfc6-4241-4759-89a1-4b235a230eb4",
+      "name": "Real Madrid C.F.",
+      "website": "https://www.realmadrid.com/",
+      "bio": "⚽️ Official profile of Real Madrid C.F.\n🏆 13 times European Champions\n🌍 FIFA Best Club of the 20th Century",
+      "phone": "",
+      "gender": "",
+      "id": 8
+    },
+    {
+      "email": "kyrgyzstan@gmail.com",
+      "password": "$2a$10$IAddJyZE.XwGAKKM.Ij.f.vIWcAtCKz1JiS8v.74sgGkwWGdgHRdK",
+      "fullname": "Kyrgyz Republic",
+      "username": "kyrgyzstan",
+      "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641463032579kg.jpg?alt=media&token=6de7ffa4-6f9a-4336-8b8e-d25d9a6ac7a1",
+      "name": "Кыргыз Республикасы",
+      "website": "",
+      "bio": "Кыргыз Республикасынын расмий Vuestagram баракчасы.",
+      "phone": "",
+      "gender": "",
+      "id": 9
+    }
+  ],
+  "posts": [
+    {
+      "img": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/1641452320285ronaldo.jpg?alt=media&token=6b7512e0-ac82-4f08-9efc-d201dccfa7ff",
+      "caption": "We are in final!",
+      "userId": 4,
+      "likes": 4,
+      "createdAt": 1641452301615,
+      "likedUsers": [
+        6,
+        5,
+        7,
+        8
+      ],
+      "id": 1
+    },
+    {
+      "img": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/1641454083853messi.jpeg?alt=media&token=f4b3485c-a016-4a0e-8d46-e7cebf80be7f",
+      "caption": "We are in final! Thanks to my teammates! We did it together!",
+      "userId": 6,
+      "likes": 2,
+      "createdAt": 1641453983359,
+      "likedUsers": [
+        5,
+        7
+      ],
+      "id": 2
+    },
+    {
+      "img": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/1641462056447vue3.jpg?alt=media&token=8071baf4-1ea0-4ba0-98da-4d0ffd6bb189",
+      "caption": "",
+      "userId": 5,
+      "likes": 2,
+      "createdAt": 1641462004285,
+      "likedUsers": [
+        7,
+        6
+      ],
+      "id": 3
+    },
+    {
+      "img": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/1641462788760rmgame.jpg?alt=media&token=c019ffa0-8b03-4269-a6ce-d39ba640d3c8",
+      "caption": "Important game, important 3 points! Hala Madrid! ",
+      "userId": 8,
+      "likes": 2,
+      "createdAt": 1641462664493,
+      "likedUsers": [
+        6,
+        9
+      ],
+      "id": 4
+    }
+  ],
+  "followers": [
+    {
+      "userId": 4,
+      "follower": {
+        "email": "vuestagram@gmail.com",
+        "password": "$2a$10$sF8ns/T1G.zbZCkxyYItpuSz5X6bmx/aZJ7/fbobrp1cN.KCMSmk.",
+        "fullname": "Vuestagram",
+        "username": "vuestagram",
+        "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641453007693test.png?alt=media&token=46015606-f505-47e3-9082-1c76aa36513c",
+        "name": "Vue.js",
+        "website": "https://v3.vuejs.org/",
+        "bio": "The Progressive\nJavaScript Framework",
+        "phone": "",
+        "gender": "",
+        "id": 5,
+        "followings": [],
+        "posts": [],
+        "followers": []
+      },
+      "id": 1
+    },
+    {
+      "userId": 4,
+      "follower": {
+        "email": "messi@gmail.com",
+        "password": "$2a$10$z2mTXRwx71YXch3qCAGQieDQADTTSna5naslRJ3Q0pNmg8NaRrQ6K",
+        "fullname": "Lionel Messi",
+        "username": "messi",
+        "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641453218844messi.jpg?alt=media&token=35ebe761-29d8-49be-98e4-795cb9c7d71b",
+        "name": "Lionel Messi",
+        "website": "https://messi.com/",
+        "bio": "Bienvenidos a la cuenta oficial de Vuestagram de Leo Messi / Welcome to the official Leo Messi Vuestagram account",
+        "phone": "",
+        "gender": "",
+        "id": 6,
+        "followings": [],
+        "posts": [],
+        "followers": []
+      },
+      "id": 2
+    },
+    {
+      "userId": 6,
+      "follower": {
+        "email": "vue@gmail.com",
+        "password": "$2a$10$sF8ns/T1G.zbZCkxyYItpuSz5X6bmx/aZJ7/fbobrp1cN.KCMSmk.",
+        "fullname": "Vuestagram",
+        "username": "vuestagram",
+        "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641453007693test.png?alt=media&token=46015606-f505-47e3-9082-1c76aa36513c",
+        "name": "Vue.js",
+        "website": "https://v3.vuejs.org/",
+        "bio": "The Progressive\nJavaScript Framework",
+        "phone": "",
+        "gender": "",
+        "id": 5,
+        "followings": [
+          {
+            "userId": 5,
+            "followedUser": {
+              "email": "cristiano@gmail.com",
+              "password": "$2a$10$01zTl5qk60U8ZrEP4677uOL5Q6vMTAmgvRtgSGFoIKZkvNE4w0VqO",
+              "fullname": "Cristiano Ronaldo",
+              "username": "cristiano",
+              "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641451776913ron.jpg?alt=media&token=a17ce251-47e1-4a2d-8d21-c15d0e3909f3",
+              "name": "Cristiano Ronaldo",
+              "website": "www.cristianoronaldo.com",
+              "bio": "This is the official Vuestagram account of Cristiano Ronaldo",
+              "phone": "",
+              "gender": "",
+              "id": 4,
+              "followings": [],
+              "posts": [
+                {
+                  "img": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/1641452320285ronaldo.jpg?alt=media&token=6b7512e0-ac82-4f08-9efc-d201dccfa7ff",
+                  "caption": "We are in final!",
+                  "userId": 4,
+                  "likes": 0,
+                  "createdAt": 1641452301615,
+                  "likedUsers": [],
+                  "id": 1
+                }
+              ],
+              "followers": []
+            },
+            "id": 1
+          }
+        ],
+        "posts": [],
+        "followers": []
+      },
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "follower": {
+        "email": "elon@gmail.com",
+        "password": "$2a$10$1eg6ES75Vdh5aLH52czanOKo35Ye7ClwrcKa4RGs9ZtP3mi2rDR6.",
+        "fullname": "Elon Mask",
+        "username": "elonmask",
+        "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641462282855elon.jpg?alt=media&token=080a1e49-bb2b-46fd-8ae9-d8b3412a65ac",
+        "name": "Elon Mask",
+        "website": "",
+        "bio": "CEO, CTO Space X, Tesla",
+        "phone": "",
+        "gender": "",
+        "id": 7,
+        "followings": [],
+        "posts": [],
+        "followers": []
+      },
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "follower": {
+        "email": "elon@gmail.com",
+        "password": "$2a$10$1eg6ES75Vdh5aLH52czanOKo35Ye7ClwrcKa4RGs9ZtP3mi2rDR6.",
+        "fullname": "Elon Mask",
+        "username": "elonmask",
+        "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641462282855elon.jpg?alt=media&token=080a1e49-bb2b-46fd-8ae9-d8b3412a65ac",
+        "name": "Elon Mask",
+        "website": "",
+        "bio": "CEO, CTO Space X, Tesla",
+        "phone": "",
+        "gender": "",
+        "id": 7,
+        "followings": [],
+        "posts": [],
+        "followers": []
+      },
+      "id": 5
+    },
+    {
+      "userId": 6,
+      "follower": {
+        "email": "elon@gmail.com",
+        "password": "$2a$10$1eg6ES75Vdh5aLH52czanOKo35Ye7ClwrcKa4RGs9ZtP3mi2rDR6.",
+        "fullname": "Elon Mask",
+        "username": "elonmask",
+        "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641462282855elon.jpg?alt=media&token=080a1e49-bb2b-46fd-8ae9-d8b3412a65ac",
+        "name": "Elon Mask",
+        "website": "",
+        "bio": "CEO, CTO Space X, Tesla",
+        "phone": "",
+        "gender": "",
+        "id": 7,
+        "followings": [],
+        "posts": [],
+        "followers": []
+      },
+      "id": 6
+    },
+    {
+      "userId": 4,
+      "follower": {
+        "email": "realmadrid@gmail.com",
+        "password": "$2a$10$b6aswwcAuK4mK2CSzwp0.e49X1cYrwztyVRSr0leUCnhtmasJbaN.",
+        "fullname": "Real Madrid",
+        "username": "realmadrid",
+        "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641462514950rm.jpg?alt=media&token=0aa5cfc6-4241-4759-89a1-4b235a230eb4",
+        "name": "",
+        "website": "",
+        "bio": "",
+        "phone": "",
+        "gender": "",
+        "id": 8,
+        "followings": [],
+        "posts": [],
+        "followers": []
+      },
+      "id": 7
+    },
+    {
+      "userId": 7,
+      "follower": {
+        "email": "realmadrid@gmail.com",
+        "password": "$2a$10$b6aswwcAuK4mK2CSzwp0.e49X1cYrwztyVRSr0leUCnhtmasJbaN.",
+        "fullname": "Real Madrid",
+        "username": "realmadrid",
+        "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641462514950rm.jpg?alt=media&token=0aa5cfc6-4241-4759-89a1-4b235a230eb4",
+        "name": "",
+        "website": "",
+        "bio": "",
+        "phone": "",
+        "gender": "",
+        "id": 8,
+        "followings": [],
+        "posts": [],
+        "followers": []
+      },
+      "id": 8
+    },
+    {
+      "userId": 8,
+      "follower": {
+        "email": "kyrgyzstan@gmail.com",
+        "password": "$2a$10$IAddJyZE.XwGAKKM.Ij.f.vIWcAtCKz1JiS8v.74sgGkwWGdgHRdK",
+        "fullname": "Kyrgyz Republic",
+        "username": "kyrgyzstan",
+        "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641463032579kg.jpg?alt=media&token=6de7ffa4-6f9a-4336-8b8e-d25d9a6ac7a1",
+        "name": "Кыргыз Республикасы",
+        "website": "",
+        "bio": "Кыргыз Республикасынын расмий Vuestagram баракчасы.",
+        "phone": "",
+        "gender": "",
+        "id": 9,
+        "followings": [],
+        "posts": [],
+        "followers": []
+      },
+      "id": 9
+    },
+    {
+      "userId": 7,
+      "follower": {
+        "email": "kyrgyzstan@gmail.com",
+        "password": "$2a$10$IAddJyZE.XwGAKKM.Ij.f.vIWcAtCKz1JiS8v.74sgGkwWGdgHRdK",
+        "fullname": "Kyrgyz Republic",
+        "username": "kyrgyzstan",
+        "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641463032579kg.jpg?alt=media&token=6de7ffa4-6f9a-4336-8b8e-d25d9a6ac7a1",
+        "name": "Кыргыз Республикасы",
+        "website": "",
+        "bio": "Кыргыз Республикасынын расмий Vuestagram баракчасы.",
+        "phone": "",
+        "gender": "",
+        "id": 9,
+        "followings": [],
+        "posts": [],
+        "followers": []
+      },
+      "id": 10
+    }
+  ],
+  "followings": [
+    {
+      "userId": 5,
+      "followedUser": {
+        "email": "cristiano@gmail.com",
+        "password": "$2a$10$01zTl5qk60U8ZrEP4677uOL5Q6vMTAmgvRtgSGFoIKZkvNE4w0VqO",
+        "fullname": "Cristiano Ronaldo",
+        "username": "cristiano",
+        "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641451776913ron.jpg?alt=media&token=a17ce251-47e1-4a2d-8d21-c15d0e3909f3",
+        "name": "Cristiano Ronaldo",
+        "website": "www.cristianoronaldo.com",
+        "bio": "This is the official Vuestagram account of Cristiano Ronaldo",
+        "phone": "",
+        "gender": "",
+        "id": 4,
+        "followings": [],
+        "posts": [
+          {
+            "img": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/1641452320285ronaldo.jpg?alt=media&token=6b7512e0-ac82-4f08-9efc-d201dccfa7ff",
+            "caption": "We are in final!",
+            "userId": 4,
+            "likes": 0,
+            "createdAt": 1641452301615,
+            "likedUsers": [],
+            "id": 1
+          }
+        ],
+        "followers": []
+      },
+      "id": 1
+    },
+    {
+      "userId": 6,
+      "followedUser": {
+        "email": "cristiano@gmail.com",
+        "password": "$2a$10$01zTl5qk60U8ZrEP4677uOL5Q6vMTAmgvRtgSGFoIKZkvNE4w0VqO",
+        "fullname": "Cristiano Ronaldo",
+        "username": "cristiano",
+        "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641451776913ron.jpg?alt=media&token=a17ce251-47e1-4a2d-8d21-c15d0e3909f3",
+        "name": "Cristiano Ronaldo",
+        "website": "www.cristianoronaldo.com",
+        "bio": "This is the official Vuestagram account of Cristiano Ronaldo",
+        "phone": "",
+        "gender": "",
+        "id": 4
+      },
+      "id": 2
+    },
+    {
+      "userId": 5,
+      "followedUser": {
+        "email": "messi@gmail.com",
+        "password": "$2a$10$z2mTXRwx71YXch3qCAGQieDQADTTSna5naslRJ3Q0pNmg8NaRrQ6K",
+        "fullname": "Lionel Messi",
+        "username": "messi",
+        "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641453218844messi.jpg?alt=media&token=35ebe761-29d8-49be-98e4-795cb9c7d71b",
+        "name": "Lionel Messi",
+        "website": "https://messi.com/",
+        "bio": "Bienvenidos a la cuenta oficial de Vuestagram de Leo Messi / Welcome to the official Leo Messi Vuestagram account",
+        "phone": "",
+        "gender": "",
+        "id": 6
+      },
+      "id": 3
+    },
+    {
+      "userId": 7,
+      "followedUser": {
+        "email": "cristiano@gmail.com",
+        "password": "$2a$10$01zTl5qk60U8ZrEP4677uOL5Q6vMTAmgvRtgSGFoIKZkvNE4w0VqO",
+        "fullname": "Cristiano Ronaldo",
+        "username": "cristiano",
+        "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641451776913ron.jpg?alt=media&token=a17ce251-47e1-4a2d-8d21-c15d0e3909f3",
+        "name": "Cristiano Ronaldo",
+        "website": "www.cristianoronaldo.com",
+        "bio": "This is the official Vuestagram account of Cristiano Ronaldo",
+        "phone": "",
+        "gender": "",
+        "id": 4
+      },
+      "id": 4
+    },
+    {
+      "userId": 7,
+      "followedUser": {
+        "email": "vue@gmail.com",
+        "password": "$2a$10$sF8ns/T1G.zbZCkxyYItpuSz5X6bmx/aZJ7/fbobrp1cN.KCMSmk.",
+        "fullname": "Vuestagram",
+        "username": "vuestagram",
+        "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641453007693test.png?alt=media&token=46015606-f505-47e3-9082-1c76aa36513c",
+        "name": "Vue.js",
+        "website": "https://v3.vuejs.org/",
+        "bio": "The Progressive\nJavaScript Framework",
+        "phone": "",
+        "gender": "",
+        "id": 5
+      },
+      "id": 5
+    },
+    {
+      "userId": 7,
+      "followedUser": {
+        "email": "messi@gmail.com",
+        "password": "$2a$10$z2mTXRwx71YXch3qCAGQieDQADTTSna5naslRJ3Q0pNmg8NaRrQ6K",
+        "fullname": "Lionel Messi",
+        "username": "messi",
+        "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641453218844messi.jpg?alt=media&token=35ebe761-29d8-49be-98e4-795cb9c7d71b",
+        "name": "Lionel Messi",
+        "website": "https://messi.com/",
+        "bio": "Bienvenidos a la cuenta oficial de Vuestagram de Leo Messi / Welcome to the official Leo Messi Vuestagram account",
+        "phone": "",
+        "gender": "",
+        "id": 6
+      },
+      "id": 6
+    },
+    {
+      "userId": 8,
+      "followedUser": {
+        "email": "cristiano@gmail.com",
+        "password": "$2a$10$01zTl5qk60U8ZrEP4677uOL5Q6vMTAmgvRtgSGFoIKZkvNE4w0VqO",
+        "fullname": "Cristiano Ronaldo",
+        "username": "cristiano",
+        "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641451776913ron.jpg?alt=media&token=a17ce251-47e1-4a2d-8d21-c15d0e3909f3",
+        "name": "Cristiano Ronaldo",
+        "website": "www.cristianoronaldo.com",
+        "bio": "This is the official Vuestagram account of Cristiano Ronaldo",
+        "phone": "",
+        "gender": "",
+        "id": 4
+      },
+      "id": 7
+    },
+    {
+      "userId": 8,
+      "followedUser": {
+        "email": "elon@gmail.com",
+        "password": "$2a$10$1eg6ES75Vdh5aLH52czanOKo35Ye7ClwrcKa4RGs9ZtP3mi2rDR6.",
+        "fullname": "Elon Mask",
+        "username": "elonmask",
+        "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641462282855elon.jpg?alt=media&token=080a1e49-bb2b-46fd-8ae9-d8b3412a65ac",
+        "name": "Elon Mask",
+        "website": "",
+        "bio": "CEO, CTO Space X, Tesla",
+        "phone": "",
+        "gender": "",
+        "id": 7
+      },
+      "id": 8
+    },
+    {
+      "userId": 9,
+      "followedUser": {
+        "email": "realmadrid@gmail.com",
+        "password": "$2a$10$b6aswwcAuK4mK2CSzwp0.e49X1cYrwztyVRSr0leUCnhtmasJbaN.",
+        "fullname": "Real Madrid",
+        "username": "realmadrid",
+        "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641462514950rm.jpg?alt=media&token=0aa5cfc6-4241-4759-89a1-4b235a230eb4",
+        "name": "Real Madrid C.F.",
+        "website": "https://www.realmadrid.com/",
+        "bio": "⚽️ Official profile of Real Madrid C.F.\n🏆 13 times European Champions\n🌍 FIFA Best Club of the 20th Century",
+        "phone": "",
+        "gender": "",
+        "id": 8
+      },
+      "id": 9
+    },
+    {
+      "userId": 9,
+      "followedUser": {
+        "email": "elon@gmail.com",
+        "password": "$2a$10$1eg6ES75Vdh5aLH52czanOKo35Ye7ClwrcKa4RGs9ZtP3mi2rDR6.",
+        "fullname": "Elon Mask",
+        "username": "elonmask",
+        "profileImg": "https://firebasestorage.googleapis.com/v0/b/vuestagram-1f8ab.appspot.com/o/profiles%2F1641462282855elon.jpg?alt=media&token=080a1e49-bb2b-46fd-8ae9-d8b3412a65ac",
+        "name": "Elon Mask",
+        "website": "",
+        "bio": "CEO, CTO Space X, Tesla",
+        "phone": "",
+        "gender": "",
+        "id": 7
+      },
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "text": "Congrats!",
+      "postId": 1,
+      "userId": 5,
+      "userName": "vuestagram",
+      "id": 1
+    },
+    {
+      "text": "See you in final Goat!!!",
+      "postId": 1,
+      "userId": 6,
+      "userName": "messi",
+      "id": 2
+    },
+    {
+      "text": "Siiiiiiiiiiuuu!",
+      "postId": 1,
+      "userId": 7,
+      "userName": "elonmask",
+      "id": 3
+    },
+    {
+      "text": "Good Job guys",
+      "postId": 4,
+      "userId": 6,
+      "userName": "messi",
+      "id": 4
+    },
+    {
+      "text": "Азаматсынар!",
+      "postId": 4,
+      "userId": 9,
+      "userName": "kyrgyzstan",
+      "id": 5
+    }
+  ]
 }
